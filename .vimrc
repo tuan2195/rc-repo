@@ -1,7 +1,5 @@
-
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+" tuan2195's vimrc
 filetype plugin on
-set omnifunc=syntaxcomplete#Complete
 
 " configure tags - add additional tags here or comment out not-used ones
 set tags+=~/.vim/tags/cpp
@@ -9,6 +7,7 @@ set tags+=~/.vim/tags/cpp
 map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " OmniCppComplete
+set omnifunc=syntaxcomplete#Complete
 let OmniCpp_NamespaceSearch = 1
 let OmniCpp_GlobalScopeSearch = 1
 let OmniCpp_ShowAccess = 1
