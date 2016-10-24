@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copying vimrc
+# Tuan Dao's rc files backup script with github
 cp ~/.vimrc ./
 cp ~/.bashrc ./
 cp ~/.tmux.conf ./
