@@ -1,4 +1,4 @@
-" tuan2195's vimrc
+" Tuan Dao's vimrc
 filetype plugin on
 
 " configure tags - add additional tags here or comment out not-used ones
