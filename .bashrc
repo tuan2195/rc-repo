@@ -1,4 +1,4 @@
-# Tuan Dao's .bashrc
+# .bashrc
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -18,6 +18,7 @@ alias grep='grep --color=auto'
 alias ff='find | grep -i --color=auto'
 alias cats='source-highlight --out-format=esc -o STDOUT -i'
 alias gr='grep -rin --color=auto'
+alias grl='grep -rinl --color=auto'
 alias psh='source-highlight --out-format=esc -o STDOUT'
 alias tap='telnet localhost 17000'
 alias vi="vim"
@@ -31,9 +32,12 @@ alias ser="screen -r"
 alias sck="killall screen"
 alias umb="sudo umount /media/BOSE/"
 alias mk="make"
-alias mkr="make sdk=ti cfg=Release jobs=4 && echo Now copying to sf_Shared... &&
+alias mkr="make cmake_build sdk=ti cfg=Release jobs=4 && echo Now copying to sf_Shared... &&
            cp /scratch/STSDKAPI/Products/Rhino/builds/Release/arm-linux/Rhino /media/sf_Shared/"
+alias mkp="make sdk=ti cfg=Release jobs=4 package && echo Now copying Update.stu to sf_Shared... &&
+           cp /scratch/STSDKAPI/Products/Rhino/builds/Update.Rhino.stu /media/sf_Shared/Update.stu"
 alias cpr="cp /scratch/STSDKAPI/Products/Rhino/builds/Release/arm-linux/Rhino /media/sf_Shared/"
+alias cpfs="cp /scratch/STSDKAPI/Products/Rhino/builds/sm2-fs.img /media/sf_Shared/ubi.img"
 alias bashrc="vim ~/.bashrc"
 alias tmuxrc="vim ~/.tmux.conf.local"
 alias vimrc="vim ~/.vimrc"

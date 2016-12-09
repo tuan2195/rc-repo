@@ -54,6 +54,7 @@ set -g base-index 1
 setw -g pane-base-index 1
 set -g display-panes-time 10000
 bind -n C-q display-panes \; select-pane -t :.
+bind C-a next-window
 
 # Mouse
 set -g mouse on

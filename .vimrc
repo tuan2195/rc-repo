@@ -1,4 +1,4 @@
-" Tuan Dao's vimrc
+" tuan2195's vimrc
 filetype plugin on
 
 " configure tags - add additional tags here or comment out not-used ones
@@ -21,10 +21,10 @@ au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,longest,menu,preview
 
 " Mapping to emulate typical autocomplete
-let g:SuperTabDefaultCompletionType = "<c-n>"
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 inoremap <expr> <M-,> pumvisible() ? '<C-n>' : '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " Tuan's custom mapping
 syntax on
