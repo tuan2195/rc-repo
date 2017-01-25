@@ -10,3 +10,4 @@ git add .tmux.conf
 git add .tmux.conf.local
 git add backup.sh
 git add restore.sh
+git commit

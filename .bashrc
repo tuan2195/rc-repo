@@ -12,6 +12,7 @@ PATH=/usr/lib/qt-3.3/bin:/usr/lib/ccache:/tools/hepdsw/scripts:/tools/hepdsw/bin
 IGNOREEOF=10
 stty -ixon
 
+alias ll="ls -l"
 alias la="ls -la"
 alias src="source ~/.bashrc"
 alias grep='grep --color=auto'

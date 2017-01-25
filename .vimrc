@@ -97,6 +97,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'ervandew/supertab'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'vim-scripts/AutoComplPop'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

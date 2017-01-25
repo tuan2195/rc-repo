@@ -60,8 +60,8 @@ bind C-a next-window
 set -g mouse on
 
 # Focus
-set -g window-style 'fg=colour250'
-set -g window-active-style 'fg=colour255'
+set -g window-style 'fg=colour255'
+set -g window-active-style 'fg=colour250'
 
 # (‑●‑●)> released under the WTFPL v2 license, by Gregory Pakosz (@gpakosz)
 # ------------------------------------------------------------------------------
