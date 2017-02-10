@@ -60,9 +60,9 @@ nnoremap H gT
 nnoremap L gt
 " Toggle fold
 nnoremap <Space> za
-" Toggle comments with C-/
-nmap <C-_> <Leader>c<space>
-vmap <C-_> <Leader>c<space>
+" Toggle comments with c<space>
+nmap c<space> <Leader>c<space>
+vmap c<space> <Leader>c<space>
 " Exit shortcuts
 nnoremap XX :q!<CR>
 nnoremap ZA :wa<CR>
